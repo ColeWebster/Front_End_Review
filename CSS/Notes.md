@@ -40,3 +40,40 @@ While classes are meant to be used many times, an ID is meant to style only one 
 Specificity is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override.
 
 IDs are the most specific selector in CSS, followed by classes, and finally, type. 
+
+## Review
+**Q: Which of the following best descibes the concept of CSS selector specificity?**
+
+**A:** Refers to how a browser decides which stles to display when there are multiple styles defined that could apply to the same element.
+
+
+**Q: What does the `<style>` HTML tag allow?**
+
+**A:** Writing one of more CSS rules in CSS syntax inside an HTML file. 
+
+**Q: The following HTML code attempts to change the color of the paragraph text, but fails to do so. Why?**
+```
+<p color="red">I am learning to code!</p>
+```
+
+**A:** The color attribute is invalid. It should be changed to style then set equal to color: red;
+```
+<p style="color: red;">I am learning to code!</p>
+```
+
+**Q: What is the correct syntaxto select an element inside another element?**
+
+**A:** 
+```
+.main-list li {}
+```
+
+**Q: What is the correct syntax to style multiple, unrelated selectors?**
+
+**A:**
+```
+.nav-menu,
+p {
+
+}
+```

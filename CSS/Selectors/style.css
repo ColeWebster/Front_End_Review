@@ -1,0 +1,23 @@
+* {
+    font-family: Verdana;
+}
+
+p {
+  color: green;
+}
+
+h1 {
+  color: maroon;
+}
+/* Selector by class */
+.title {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+/* Selector by ID */
+#article-title {
+    font-family: cursive;
+}
